@@ -57,8 +57,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Nebula Pack\Skybox Dark Nebula\Scripts\SmoothCameraOrbit.cs" />
-    <Compile Include="Assets\Nebula Pack\Skybox Purple Nebula\scripts\MouseLook.cs" />
     <Compile Include="Assets\Script\PureMVC\Core\Controller.cs" />
     <Compile Include="Assets\Script\PureMVC\Core\Model.cs" />
     <Compile Include="Assets\Script\PureMVC\Core\View.cs" />
@@ -80,10 +78,6 @@
     <Compile Include="Assets\Script\PureMVC\Patterns\Observer\Notifier.cs" />
     <Compile Include="Assets\Script\PureMVC\Patterns\Observer\Observer.cs" />
     <Compile Include="Assets\Script\PureMVC\Patterns\Proxy\Proxy.cs" />
-    <None Include="Assets\Nebula Pack\Nebula Pack - Readme.txt" />
-    <None Include="Assets\Nebula Pack\Skybox Dark Nebula\Dark Nebula - Readme.txt" />
-    <None Include="Assets\Nebula Pack\Skybox Green Nebula\Green Nebula - Readme.txt" />
-    <None Include="Assets\Nebula Pack\Skybox Simple Nebula\Simple Nebula - Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
