@@ -57,27 +57,28 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\PureMVC\Core\Controller.cs" />
-    <Compile Include="Assets\Script\PureMVC\Core\Model.cs" />
-    <Compile Include="Assets\Script\PureMVC\Core\View.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\ICommand.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\IController.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\IFacade.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\IMediator.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\IModel.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\INotification.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\INotifier.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\IObserver.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\IProxy.cs" />
-    <Compile Include="Assets\Script\PureMVC\Interfaces\IView.cs" />
-    <Compile Include="Assets\Script\PureMVC\Patterns\Command\MacroCommand.cs" />
-    <Compile Include="Assets\Script\PureMVC\Patterns\Command\SimpleCommand.cs" />
-    <Compile Include="Assets\Script\PureMVC\Patterns\Facade\Facade.cs" />
-    <Compile Include="Assets\Script\PureMVC\Patterns\Mediator\Mediator.cs" />
-    <Compile Include="Assets\Script\PureMVC\Patterns\Observer\Notification.cs" />
-    <Compile Include="Assets\Script\PureMVC\Patterns\Observer\Notifier.cs" />
-    <Compile Include="Assets\Script\PureMVC\Patterns\Observer\Observer.cs" />
-    <Compile Include="Assets\Script\PureMVC\Patterns\Proxy\Proxy.cs" />
+    <Compile Include="Assets\Script\base\event\Core\Controller.cs" />
+    <Compile Include="Assets\Script\base\event\Core\Model.cs" />
+    <Compile Include="Assets\Script\base\event\Core\View.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\ICommand.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\IController.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\IFacade.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\IMediator.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\IModel.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\INotification.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\INotifier.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\IObserver.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\IProxy.cs" />
+    <Compile Include="Assets\Script\base\event\Interfaces\IView.cs" />
+    <Compile Include="Assets\Script\base\event\Patterns\Command\MacroCommand.cs" />
+    <Compile Include="Assets\Script\base\event\Patterns\Command\SimpleCommand.cs" />
+    <Compile Include="Assets\Script\base\event\Patterns\Facade\Facade.cs" />
+    <Compile Include="Assets\Script\base\event\Patterns\Mediator\Mediator.cs" />
+    <Compile Include="Assets\Script\base\event\Patterns\Observer\Notification.cs" />
+    <Compile Include="Assets\Script\base\event\Patterns\Observer\Notifier.cs" />
+    <Compile Include="Assets\Script\base\event\Patterns\Observer\Observer.cs" />
+    <Compile Include="Assets\Script\base\event\Patterns\Proxy\Proxy.cs" />
+    <Compile Include="Assets\Script\game\App.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
