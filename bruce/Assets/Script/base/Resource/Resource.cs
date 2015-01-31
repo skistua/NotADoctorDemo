@@ -1,0 +1,7 @@
+﻿
+namespace Resource
+{
+    class Resource
+    {
+    }
+}

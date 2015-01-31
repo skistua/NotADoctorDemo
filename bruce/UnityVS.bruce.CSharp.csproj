@@ -7,14 +7,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{75EDEAAD-AC26-ED31-E68A-E9DDE2CBC71D}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -57,7 +59,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\base\objectPool\ObjectPoolService.cs" />
     <Compile Include="Assets\Script\base\Resource\NADResourceManager.cs" />
+    <Compile Include="Assets\Script\base\Resource\Resource.cs" />
     <Compile Include="Assets\Script\base\event\Core\Controller.cs" />
     <Compile Include="Assets\Script\base\event\Core\Model.cs" />
     <Compile Include="Assets\Script\base\event\Core\View.cs" />
@@ -79,6 +83,7 @@
     <Compile Include="Assets\Script\base\event\Patterns\Observer\Notifier.cs" />
     <Compile Include="Assets\Script\base\event\Patterns\Observer\Observer.cs" />
     <Compile Include="Assets\Script\base\event\Patterns\Proxy\Proxy.cs" />
+    <Compile Include="Assets\Script\base\objectPool\ObjectPool.cs" />
     <Compile Include="Assets\Script\game\App.cs" />
     <Compile Include="Assets\Script\test\EventSource.cs" />
     <Compile Include="Assets\Script\test\Listener.cs" />
